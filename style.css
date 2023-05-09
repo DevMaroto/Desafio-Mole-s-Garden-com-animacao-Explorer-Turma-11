@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-garden {
+  background-image: url(./assets/fundo.svg);
+  width: 1400px;
+  height: 1020px;
+  margin: 0 auto;
+  display: grid;
+  place-items: baseline;
+}
+
+.moles {
+  margin: 300px auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  width: 1050px;
+}
+
+.mole {
+  width: 221.81px;
+  height: 168.11px;
+  background-image: url(./assets/toupeira6.svg);
+}
+
+.mole-animation-one {
+  animation: mole 0.3s 3s infinite;
+  /* animation-delay: 3s;
+  animation-iteration-count: infinite; */
+}
+.mole-animation-two {
+  animation: mole 0.3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+.mole-animation-three {
+  animation: mole 0.3s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mole {
+  0% {
+    background-image: url(./assets/toupeira1.svg);
+  }
+  20% {
+    background-image: url(./assets/toupeira2.svg);
+  }
+  40% {
+    background-image: url(./assets/toupeira3.svg);
+  }
+  60% {
+    background-image: url(./assets/toupeira4.svg);
+  }
+  80% {
+    background-image: url(./assets/toupeira5.svg);
+  }
+  100% {
+    background-image: url(./assets/toupeira6.svg);
+  }
+}
