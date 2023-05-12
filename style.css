@@ -17,7 +17,7 @@
   margin: 300px auto 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  place-items: center;
+  place-items: baseline;
   width: 1050px;
 }
 
