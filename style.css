@@ -29,18 +29,12 @@
 
 .mole-animation-one {
   animation: mole 0.3s 3s infinite;
-  /* animation-delay: 3s;
-  animation-iteration-count: infinite; */
 }
 .mole-animation-two {
-  animation: mole 0.3s;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
+  animation: mole 0.5s 6s infinite;
 }
 .mole-animation-three {
-  animation: mole 0.3s;
-  animation-delay: 7s;
-  animation-iteration-count: infinite;
+  animation: mole 0.4s 9s infinite;
 }
 
 @keyframes mole {
