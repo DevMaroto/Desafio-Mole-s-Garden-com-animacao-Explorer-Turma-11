@@ -1,4 +1,4 @@
-<h1 align="center"> Desafio Mole´s Garden com animacao Explorer Turma 11 </h1>
+<h1 align="center"> Desafio Mole´s Garden com animação Explorer Turma 11 </h1>
 <p align="center"> Desafio de conclusão sobre animações com Keyframes</p>
 
 
